@@ -1,14 +1,15 @@
 /* --- About us --- */
 /* Styles for Mobile devices */
-
+.about {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
 .about .container {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
   gap: 20px;
-
-  padding: 60px 20px;
 }
 
 .about_content {
@@ -41,7 +42,7 @@
   font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.28571;
+  line-height: 1.29;
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
 }
@@ -72,6 +73,11 @@
 
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
+  .about {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
   .about .container {
     display: flex;
     align-items: flex-start;
@@ -79,9 +85,6 @@
     flex-direction: column;
     gap: 40px;
     padding: 0px 32px;
-
-    height: 1064px;
-    padding: 80px 0;
   }
 
   .about_content {
@@ -92,37 +95,31 @@
   }
 
   .about_title {
-    font-family: 'Gilroy', sans-serif;
-    font-weight: 600;
     font-size: 48px;
-    line-height: 0.91667;
-    letter-spacing: -0.02em;
-    color: #0c0c0c;
+    line-height: 0.92;
   }
 
   .about_text_container {
     width: 584px;
   }
   .about_text {
-    font-family: 'Gilroy', sans-serif;
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.25;
-    letter-spacing: -0.02em;
-    color: rgba(12, 12, 12, 0.7);
     width: auto;
   }
 
   .about_picture_container {
     border-radius: 50px;
-    /* width: 704px; */
-    /* height: 512px; */
-    /* background: rgba(12, 12, 12, 0.2), url('path_to_image'); */
   }
 }
 
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) {
+  .about {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
   .about .container {
     display: flex;
 
@@ -130,8 +127,6 @@
     justify-content: center;
     flex-direction: row;
     gap: 40px;
-    /* width: 1280px; */
-    padding: 100px 0;
   }
 
   .about_content {
@@ -142,24 +137,15 @@
     background: #f3f3f3;
     padding: 80px 60px;
     justify-self: center;
-    height: 532px;
   }
 
   .about_title {
-    font-family: 'Gilroy', sans-serif;
-    font-weight: 600;
     font-size: 48px;
-    line-height: 0.91667;
-    letter-spacing: -0.02em;
-    color: #0c0c0c;
+    line-height: 0.92;
   }
   .about_text {
-    font-family: 'Gilroy', sans-serif;
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.25;
-    letter-spacing: -0.02em;
-    color: rgba(12, 12, 12, 0.7);
     width: auto;
   }
   .about_text_container {
@@ -173,16 +159,9 @@
   }
 
   .cta_about {
-    border-radius: 16px;
-    width: 160px;
-    height: 48px;
-    background: #3350e9;
     margin-bottom: 0;
   }
   .about_picture_container {
     border-radius: 50px;
-    width: 530px;
-    height: 532px;
-    background: rgba(12, 12, 12, 0.2), url('path_to_image');
   }
 }
