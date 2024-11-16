@@ -1,1 +1,150 @@
-/* --- Catalog --- */
+.section-catalog {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.title-catalog {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 24px;
+}
+
+.catalog-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.catalog-list-items {
+  width: 100%;
+  padding: 24px 28px;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  background-color: #f3f3f3;
+}
+
+.catalog-list-items:last-child,
+.catalog-list-items:nth-child(5) {
+  display: none;
+}
+
+.catalog-item-image {
+}
+
+.catalog-list-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.catalog-list-title {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
+.catalog-list-text {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.5);
+}
+
+.button-catalog {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
+  padding: 15px 44px;
+  border-radius: 16px;
+  border: none;
+  min-width: 160px;
+  height: 48px;
+  background-color: #3350e9;
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-catalog:hover,
+.button-catalog:focus {
+  background-color: #1f3cd4;
+}
+
+@media screen and (min-width: 768px) {
+  .title-catalog {
+    font-size: 48px;
+    line-height: 0.92;
+    margin-bottom: 40px;
+  }
+
+  .catalog-list {
+    display: flex;
+    column-gap: 16px;
+    row-gap: 32px;
+  }
+
+  .catalog-list-items {
+    width: calc((100% - 16px) / 2);
+  }
+
+  .catalog-list-items:last-child,
+  .catalog-list-items:nth-child(5) {
+    padding: 24px 28px;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    background-color: #f3f3f3;
+    display: inline-block;
+  }
+
+  .catalog-list-title {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    width: 280px;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .button-catalog {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section-catalog {
+    padding: 0 33px;
+  }
+
+  .catalog-list {
+    display: flex;
+    column-gap: 23px;
+    row-gap: 32px;
+  }
+
+  .catalog-list-items {
+    width: calc((100% - 2 * 23px) / 3);
+  }
+
+  .catalog-list-title {
+    width: 304px;
+  }
+}
