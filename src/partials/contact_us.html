@@ -11,14 +11,17 @@
                     class="input-form" 
                     type="text" 
                     name="name" 
-                    placeholder="Name">
+                    placeholder="Name"
+                    required>
     
                     <input 
                     class="input-form"  
                     type="email" 
                     name="email" 
                     placeholder="Email" 
-                    pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})">
+                    pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                    required
+                    >
                     
                     <input 
                     class="input-form"  
@@ -26,7 +29,8 @@
                     name="phone" 
                     placeholder="+380" 
                     pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$" 
-                    title="(+380-XX-XXX-XX-XX)">
+                    title="(+380-XX-XXX-XX-XX)"
+                    required>
                     <textarea class="textarea-form" name="comment" placeholder="Comment"></textarea>
                     <button class="button-send" type="submit">Send</button>
                 </form>
