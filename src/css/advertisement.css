@@ -1,1 +1,13 @@
 /* --- Advertisement --- */
+.advertisement {
+    border-radius: 30px;
+    width: 335px;
+    height: 363px;
+    background-image: url(../img/advertisement/advertisement_mob.webp);
+}
+
+.visually-hidden {}
+
+.advertisement-text {}
+
+.advertisement-link {}
