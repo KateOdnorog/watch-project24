@@ -1,6 +1,7 @@
 /* --- About us --- */
 /* Styles for Mobile devices */
-.about .container_a {
+
+.about .container {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -14,6 +15,8 @@
 .about_content {
   width: 335px;
   padding: 40px 20px;
+  background: #f3f3f3;
+  border-radius: 30px;
 }
 
 .about_title {
@@ -43,9 +46,20 @@
   border-radius: 16px;
   width: 160px;
   height: 48px;
-  background: #3350e9;
+  background-color: #3350e9;
   margin-top: 40px;
-  margin-bottom: 40px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.3;
+  text-align: center;
+  color: #fbfbfb;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.cta_about:hover,
+.cta_about:focus {
+  background-color: #1f3cd4;
 }
 
 .about_picture_container {
@@ -56,7 +70,7 @@
 
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
-  .about .container_a {
+  .about .container {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -72,6 +86,7 @@
     border-radius: 50px;
     width: 704px;
     background: #f3f3f3;
+    padding: 80px 60px;
   }
 
   .about_title {
@@ -106,7 +121,7 @@
 
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) {
-  .about .container_a {
+  .about .container {
     display: flex;
 
     align-items: flex-start;
