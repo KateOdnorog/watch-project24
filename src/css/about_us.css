@@ -13,7 +13,6 @@
 }
 
 .about_content {
-  width: 335px;
   padding: 40px 20px;
   background-color: #f3f3f3;
   border-radius: 30px;
@@ -84,7 +83,6 @@
     justify-content: flex-start;
     flex-direction: column;
     gap: 40px;
-    padding: 0px 32px;
   }
 
   .about_content {
@@ -142,6 +140,7 @@
   .about_title {
     font-size: 48px;
     line-height: 0.92;
+    margin-bottom: 40px;
   }
   .about_text {
     font-size: 16px;
@@ -160,8 +159,5 @@
 
   .cta_about {
     margin-bottom: 0;
-  }
-  .about_picture_container {
-    border-radius: 50px;
   }
 }
