@@ -22,8 +22,10 @@
     <div class="about_picture_container">
       <picture>
         <source
-          srcset="/img/about_us/about_us_desk.jpg 1x, 
-          /img/about_us/about_us_desk_2x.jpg 1x 2x"
+          srcset="
+            /img/about_us/about_us_desk.jpg    1x,
+            /img/about_us/about_us_desk_2x.jpg 2x
+          "
           media="(min-width: 1280px)"
         />
         <source
@@ -38,12 +40,12 @@
             /img/about_us/about_us_mob.jpg    1x,
             /img/about_us/about_us_mob_2x.jpg 2x
           "
-          media="(max-width: 372px)"
+          media="(max-width: 375px)"
         />
         <img
           class="about_picture"
-          src="/img/about_us/about_us_desk.jpg"
-          alt="block about image"
+          src="/img/about_us/about_us_mob.jpg"
+          alt="Photo about us"
         />
       </picture>
     </div>
