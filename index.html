@@ -15,7 +15,7 @@
   />
 
     <script type="module" crossorigin src="/watch-project24/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/watch-project24/assets/index-BVLDwnQC.css">
+    <link rel="stylesheet" crossorigin href="/watch-project24/assets/index-BN4iL910.css">
   </head>
   <body>
     /* --- Header --- */
@@ -29,7 +29,63 @@
       /* --- Advertisement --- */
       /* --- Sale --- */
       /* --- Reviews --- */
-      /* --- Contact us --- */
+      
+<section class="contact-section">
+    <div class="container">
+        <h2 class="contact-title">Contact Us</h2>
+        <div class="contact-container">
+            <div class="contact-form">
+                <p class="contact-text">Please use the form below to contact us. Enter your name, email, phone, and message and we'll get back to you shortly.</p>
+                <form
+                class="form-class">
+                    <input 
+                    class="input-form" 
+                    type="text" 
+                    name="name" 
+                    placeholder="Name"
+                    required>
+    
+                    <input 
+                    class="input-form"  
+                    type="email" 
+                    name="email" 
+                    placeholder="Email" 
+                    pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                    required
+                    >
+                    
+                    <input 
+                    class="input-form"  
+                    type="phone" 
+                    name="phone" 
+                    placeholder="+380" 
+                    pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$" 
+                    title="(+380-XX-XXX-XX-XX)"
+                    required>
+                    <textarea class="textarea-form" name="comment" placeholder="Comment"></textarea>
+                    <button class="button-send" type="submit">Send</button>
+                </form>
+            </div>
+            <div class="contact-image">
+                <picture>
+                    <source srcset="/watch-project24/assets/contact_us_desk-B63MnyhY.jpg 1x, /watch-project24/assets/contact_us_desk_2x-BVVuEuL9.jpg 2x" media="(min-width: 1280px)" />
+                    
+                    <source 
+                    srcset="/watch-project24/assets/contact_us_tab-DPJxjjK3.jpg 1x, /watch-project24/assets/contact_us_tab_2x-DqfdT-cc.jpg 2x"
+                    media="(min-width: 768px)"
+                    />
+                    <source 
+                    srcset="/watch-project24/assets/contact_us_mob-CTDC9fUH.jpg 1x, /watch-project24/assets/contact_us_mob_2x-DWUuYaH3.jpg 2x"
+                    media="(max-width: 767px)" />
+                    <img src="/watch-project24/assets/contact_us_mob-CTDC9fUH.jpg" alt="Watch image">
+                    
+                </picture>
+                
+            </div>
+        </div>
+    </div>
+
+</section>
     </main>
 
     /* --- Footer --- */
