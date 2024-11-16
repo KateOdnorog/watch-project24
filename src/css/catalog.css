@@ -130,10 +130,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .section-catalog {
-    padding: 0 33px;
-  }
-
   .catalog-list {
     display: flex;
     column-gap: 23px;
