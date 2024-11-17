@@ -1,13 +1,83 @@
 /* --- Advertisement --- */
 .advertisement {
     border-radius: 30px;
+    padding: 60px 8px;
     width: 335px;
     height: 363px;
     background-image: url(../img/advertisement/advertisement_mob.webp);
+    background-color: #0c0c0c;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (min-resolution: 2dppx){
+    .advertisement{
+        background-image: url(../img/advertisement/advertisement_mob_2x.webp);
+    }
 }
 
-.visually-hidden {}
 
-.advertisement-text {}
+.advertisement-text {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    margin-bottom: 28px;
+}
+.advertisement-text span{
+    color: rgba(251, 251, 251, 0.5);
+}
+.advertisement-link {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 129%;
+        text-align: center;
+        display: block;
+        width: 160px;
+        height: 48px;
+        color: #fbfbfb;
+        border: 1px solid rgba(251, 251, 251, 0.15);
+        border-radius: 16px;
+}
+@media only screen and (min-width: 768px){
+    .advertisement {
+    width: 704px;
+    height: 425px;
+    background-image: url(../img/advertisement/advertisement_tab.webp);
+    padding: 80px 32px;
+    }
+        @media screen and (min-resolution: 2dppx) {
+            .advertisement {
+                background-image: url(../img/advertisement/advertisement_tab_2x.webp);
+            }
+        }
+    .advertisement-text {
+    font-size: 48px;
+    line-height: 92%;
+    margin-bottom: 32px;
+        }
+}
+@media only screen and (min-width: 1280px) {
+    .advertisement > .container{
+        display: flex;
+        gap: 140px;
+    }
+    .advertisement {
+        width: 1150px;
+        height: 298px;
+        background-image: url(../img/advertisement/advertisement_desk.webp);
+        padding: 80px 51px;
+        margin-left: 0 0;
+    }
+@media screen and (min-resolution: 2dppx) {
+    .advertisement {
+        background-image: url(../img/advertisement/advertisement_desk_2x.webp);
+    }
+}
+    .advertisement-text {
+        font-size: 48px;
+        line-height: 92%;
+        max-width: 690px;
+    }
+}
 
-.advertisement-link {}
