@@ -1,7 +1,8 @@
 /* --- Reviews --- */
 
 .reviews {
-    margin-bottom: 50px;
+    margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
 .reviews-title {
@@ -18,7 +19,6 @@
 .reviews-list {
     display: flex;
     flex-direction: row;
-    gap: 20px;
 }
 
 .reviews-item {
@@ -70,12 +70,21 @@
 }
 
 @media screen and (min-width:768px) {
+    .reviews {
+        margin-bottom: 80px;
+        margin-bottom: 80px;
+    }
+
+    .reviews-list {
+        gap: 16px;
+    }
+
     .reviews-item:nth-child(2n) {
         display: flex;
     }
 
     .reviews-item {
-        width: calc((100% - 24px) / 2);
+        width: calc((100% - 16px) / 2);
     }
 
     .reviews-text {
@@ -96,8 +105,17 @@
 }
 
 @media screen and (min-width:1280px) {
+    .reviews {
+        margin-bottom: 100px;
+        margin-bottom: 100px;
+    }
+
+    .reviews-list {
+        gap: 20px;
+    }
+
     .reviews-item {
-        width: calc((100% - 48px) / 3);
+        width: calc((100% - 40px) / 3);
     }
 
     .reviews-item:nth-child(2n),
