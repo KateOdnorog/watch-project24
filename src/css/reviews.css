@@ -1,5 +1,5 @@
 /* --- Reviews --- */
-/* --- Reviews --- */
+
 .reviews {
     margin-bottom: 50px;
 }
@@ -8,7 +8,8 @@
     font-family: 'Gilroy', sans-serif;
     color: #0C0C0C;
     font-weight: 600;
-    font-size: 48px;
+    font-size: 32px;
+
     line-height: 92%;
     letter-spacing: -0.02em;
     margin-bottom: 40px;
@@ -19,8 +20,6 @@
     flex-direction: row;
     gap: 20px;
 }
-
-
 
 .reviews-item {
     display: flex;
@@ -46,7 +45,7 @@
     margin-bottom: 8px;
     font-family: "Gilroy", sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 110%;
     letter-spacing: -0.02em;
     text-align: center;
@@ -56,7 +55,8 @@
 .reviews-text {
     font-family: "Gilroy", sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
+
     line-height: 125%;
     letter-spacing: -0.02em;
     text-align: center;
@@ -80,6 +80,18 @@
 
     .reviews-text {
         max-width: 272px;
+    }
+
+    .reviews-title {
+        font-size: 48px;
+    }
+
+    .reviews-name {
+        font-size: 18px;
+    }
+
+    .reviews-text {
+        font-size: 16px;
     }
 }
 
