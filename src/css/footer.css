@@ -144,6 +144,7 @@
 @media screen and (min-width: 768px) {
   .container-footer {
     padding: 40px 40px 28px 40px;
+    position: relative;
   }
 
   .logo-footer {
@@ -160,13 +161,9 @@
     height: 20px;
   }
 
-  .logo-container {
-    position: relative;
-  }
-
   .footer-tel {
     position: absolute;
-    right: 0;
+    right: 40px;
     font-size: 14px;
     line-height: 129%;
     padding: 15px;
@@ -206,7 +203,7 @@
   .privacy {
     padding-top: 28px;
     display: flex;
-    gap: 159px;
+    justify-content: space-between;
   }
 
   .watch {
@@ -221,10 +218,6 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .container-footer {
-    position: relative;
-  }
-
   .footer-title {
     position: absolute;
     top: 40px;
