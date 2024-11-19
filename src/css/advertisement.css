@@ -31,8 +31,9 @@
         font-weight: 500;
         font-size: 14px;
         line-height: 129%;
-        text-align: center;
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 160px;
         height: 48px;
         color: #fbfbfb;
