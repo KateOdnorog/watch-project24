@@ -16,5 +16,8 @@
     <symbol id="icon-menu_open" viewBox="0 0 32 32">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.4" d="M4 11.333h24M4 20.667h24"/>
     </symbol>
+    <symbol id="icon-ellipse" viewBox="0 0 36 32">
+<path fill="#3350e9" style="fill: var(--color1, #3350e9)" d="M34 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+</symbol>
   </defs>
 </svg>
