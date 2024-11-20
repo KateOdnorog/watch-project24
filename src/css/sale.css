@@ -1,1 +1,239 @@
 /* --- Sale --- */
+.sale-title{font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 24px;}
+
+
+.image-gallery {}
+
+.image-list {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.image-items {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 16px;
+    width: 80px;
+    height: 80px;
+    background-color: #f3f3f3;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sale-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-image {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    width: 100%;
+    max-width: 335px;
+    aspect-ratio: 335 / 385;
+    background: #f3f3f3;
+    overflow: hidden;
+}
+
+
+
+.product-info {
+    padding: 48px 28px;
+    border-radius: 30px;
+    width: 335px;
+    height: 561px;
+    background-color: #3350e9;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.product-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    margin-bottom: 10px;
+}
+
+.product-tag {
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.price {
+    padding-top: 20px;
+    padding-bottom: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.old-price {
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: -0.02em;
+    text-decoration: line-through;
+    color: rgba(251, 251, 251, 0.5);
+    margin: 0;
+    margin-left: 9px;
+}
+
+.current-price {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    border-radius: 8px;
+    width: 68px;
+    height: 32px;
+    background-color: rgba(251, 251, 251, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.description {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.7);
+    margin-bottom: 28px;
+}
+
+
+
+.tags {
+    margin-top: 28px;
+}
+
+.tags-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 8px;
+    max-width: 279px;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+}
+
+.tags-item {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #fbfbfb;
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+    .gallery {
+        display: flex;
+        gap: 24px;
+        align-items: center;
+        justify-content: center;
+        max-width: 704px;
+        margin: 0 auto;
+
+    }
+
+    .sale-title {
+        margin-bottom: 40px;
+        margin-top: 80px;
+    }
+
+    .image-items {
+        max-width: 132px;
+        max-height: 132px;
+    }
+
+    .image-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: flex-start;
+        flex-shrink: 0;
+    }
+
+    .main-image {
+        flex-shrink: 0;
+        max-width: 50%;
+        aspect-ratio: 335 / 385;
+        background: #f3f3f3;
+        max-width: 552px;
+        min-height: 558px;
+    }
+
+
+    .image-gallery {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .product-info {
+        margin-top: 40px;
+        margin-bottom: 80px;
+        width: 704px;
+        height: 518px;
+        padding: 60px;
+    }
+
+
+    .product-title {
+        font-size: 32px;
+        line-height: 1.12;
+        max-width: 436px;
+    }
+
+    .current-price {
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    .price {
+        padding-bottom: 30px;
+    }
+
+    .description {
+        font-size: 16px;
+        line-height: 1.25;
+        width: 584px;
+        height: 100px;
+    }
+
+    .tags {}
+
+    .tags-item {
+        font-size: 14px;
+        line-height: 1.28;
+    }
+
+    .tags-list {
+        margin-left: 0;
+        display: flex;
+        justify-content: left;
+        max-width: 398px;
+        align-content: left;
+    }
+}
+
