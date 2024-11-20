@@ -1,181 +1,180 @@
-/* --- Header ---- */
-  header{
-    font-family: 'Gilroy', sans-serif;
+.header {
+  font-family: 'Gilroy', sans-serif;
+}
+
+.header-conteiner {
+  max-width: 375px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+  margin: 0 auto;
+}
+
+.header-navigation {
+  display: flex;
+}
+
+.header-logo {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  padding: 0 7px;
+}
+
+.menu-open-button {
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  text-align: center;
+  background-color: #ffffff;
+  border: none;
+  margin-left: auto;
+}
+
+.menu-open-img {
+  stroke: #0c0c0c;
+  width: 34px;
+  height: 34px;
+}
+
+.menu-open:last-child {
+  margin-bottom: 0;
+}
+
+.header-menu-list {
+  display: none;
+}
+
+.header-addres-list {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .header-conteiner {
+    min-width: 768px;
+    padding: 26px 32px;
   }
-  
-  .header-conteiner{
-    max-width: 375px;
-    padding: 20px;
+
+  .header-logo {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -0.02em;
+  }
+
+  .menu-open-button {
+    width: 40px;
+    height: 40px;
+  }
+
+  .menu-open-img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header-conteiner {
+    min-width: 1280px;
+    padding: 26px 64.5px;
+  }
+
+  .header-navigation {
+    display: flex;
+    gap: 203px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+  .header-menu-list {
+    max-width: 505px;
+    height: 28px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .header-menu-item {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28;
+    text-align: center;
+    color: #0c0c0c;
+    display: block;
+    height: 18px;
+  }
+
+  .header-addres {
+    margin: 0 0 0 auto;
+  }
+
+  .header-addres-list {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid rgba(12, 12, 12, 0.1);
-    margin: 0 auto;
+    justify-content: center;
+    gap: 10px;
   }
-  
-  .header-navigation{
+
+  .addres-soc-link {
     display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  
-  .header-logo{
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: -0.02em;
-    color: #0C0C0C;
-    padding: 0 7px;
-  }
-  
-  .menu-open-button{
-    width: 34px;
-    height: 34px;
-    display: inline-block;
-    text-align: center;
-    background-color: #FFFFFF;
-    border: none;
-    margin-left: auto;
-  }
-  
-  .menu-open-img{
-    stroke: #0C0C0C;
-    width: 34px;
-    height: 34px;
-  }
-  
-  .menu-open:last-child {
-    margin-bottom: 0; 
-  }
-  
-  .header-menu-list{
+
+  .menu-open-button {
     display: none;
   }
-  
-  .header-addres-list{
-    display: none;
-  }
-  
-  @media screen and (min-width : 768px){
-    .header-conteiner{
-        min-width: 768px;
-        padding: 26px 32px;
-    }
-  
-    .header-logo{
-        font-weight: 500;
-        font-size: 20px;
-        letter-spacing: -0.02em;
-    }
-  
-    .menu-open-button{
-        width: 40px;
-        height: 40px;
-    }
 
-    .menu-open-img{
-        width: 40px;
-        height: 40px;
-    }
-  
+  .addres-menu-item {
+    border: 1px solid rgba(12, 12, 12, 0.1);
+    border-radius: 10px;
+    padding: 8px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
-  @media screen and (min-width : 1280px){
-    .header-conteiner{
-        min-width: 1280px;
-        padding: 26px 64.5px;
-    }
 
-    .header-navigation{
-      display: flex;
-      gap: 203px;
-      padding-top: 4px;
-      padding-bottom: 4px;
-    }
-  
-    .header-menu-list{
-      max-width: 505px;
-      height: 28px;
-      display: flex;
-      align-items: baseline;
-      justify-content: center;
-      gap: 40px;
-    }
-
-    .header-menu-item{
-      font-family: 'Gilroy', sans-serif;
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 1.28;
-      text-align: center;
-      color: #0C0C0C;
-      display: block;
-      height: 18px;
-    }
-  
-    .header-addres{
-    }
-  
-    .header-addres-list{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 10px;
-    }
-  
-    .addres-soc-link{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-  
-    .menu-open-button{
-        display: none;
-    }
-  
-    .addres-menu-item{
-        border: 1px solid rgba(12, 12, 12, 0.1);
-        border-radius: 10px;
-        padding: 8px;
-        width: 36px;
-        height: 36px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-  
-    .addres-menu-item:hover{
-        border: 1px solid rgba(51, 80, 233, 0.1);
-    }
-  
-    .addres-menu-item:focus{
-        border: 1px solid rgba(51, 80, 233, 0.1);
-    }
-  
-    .header-menu-link{
-        position: relative;
-    }
-  
-    .active-menu-link::after{
-        content: '';
-        width: 8px;
-        position: absolute;
-        left: 40%;
-        height: 8px;
-        background-color: #3350E9;
-        border-radius: 100%;
-        left: 15px;
-        top: 20px;
-    }
-  
-    .addres-menu-img{
-        width: 21px;
-        height: 20px;
-        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-  
-    .addres-menu-img:hover{
-        fill: #3350E9;
-    }
-  
-    .addres-menu-img:focus{
-        fill: #3350E9;
-    }
+  .addres-menu-item:hover {
+    border: 1px solid rgba(51, 80, 233, 0.1);
   }
+
+  .addres-menu-item:focus {
+    border: 1px solid rgba(51, 80, 233, 0.1);
+  }
+
+  .header-menu-link {
+    position: relative;
+  }
+
+  .active-menu-link::after {
+    content: '';
+    width: 8px;
+    position: absolute;
+    left: 40%;
+    height: 8px;
+    background-color: #3350e9;
+    border-radius: 100%;
+    left: 15px;
+    top: 20px;
+  }
+
+  .addres-menu-img {
+    width: 21px;
+    height: 20px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .addres-menu-img:hover {
+    fill: #3350e9;
+  }
+
+  .addres-menu-img:focus {
+    fill: #3350e9;
+  }
+}

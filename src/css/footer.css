@@ -1,6 +1,6 @@
 .footer {
   margin-top: 60px;
-  margin-bottom: 32px;
+  margin-bottom: 20px;
 }
 
 .logo-container {
@@ -149,6 +149,7 @@
 @media screen and (min-width: 768px) {
   .footer {
     margin-top: 80px;
+    margin-bottom: 32px;
   }
 
   .container-footer {
