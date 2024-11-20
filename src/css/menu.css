@@ -173,7 +173,6 @@ height: 100%;
             margin-top: 310px;
             margin-left: 128px;
             margin-bottom: auto;
-           
         }
 
         .nav-item-mobile {
@@ -182,11 +181,9 @@ height: 100%;
 
         .soc-link {
             width: 128px;
-            left: 101px;
-            bottom: 50px;
-            }
-            
-            
+            margin-left: 101px;
+            margin-bottom: 50px;
+            }  
     }
 
 
