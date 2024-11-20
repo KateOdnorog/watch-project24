@@ -44,7 +44,7 @@
   border-radius: 12px;
   padding: 12px 136px 12px 14px;
   width: 100%;
-  height: 42px;
+  height: 52px;
   background-color: transparent;
   font-size: 14px;
   line-height: 1.28571;
@@ -62,7 +62,7 @@
 .textarea-form {
   resize: none;
   width: 100%;
-  height: 84px;
+  height: 90px;
   border: 1px solid rgba(12, 12, 12, 0.15);
   border-radius: 12px;
   padding: 12px 14px 54px 14px;
