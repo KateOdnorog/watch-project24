@@ -53,7 +53,6 @@
 
 }
 
-
 .product-info {
     padding: 48px 28px;
     border-radius: 30px;
@@ -188,10 +187,7 @@
         display: flex;
         justify-content: center;
         padding: 80px 112px;
-
-
     }
-
    
     .product-info {
         margin-top: 40px;
@@ -241,7 +237,6 @@
         margin-top: 100px;
         margin-bottom: 100px;
     }
-
   
     .container-sale {
         display: flex;
@@ -267,13 +262,10 @@
 
     .price {
         margin-bottom: 30px;
-
     }
 
     .description {
-
         max-width: 410px;
-
     }
 
     .tags {
