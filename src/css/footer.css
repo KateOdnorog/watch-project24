@@ -1,3 +1,7 @@
+.footer {
+  margin-top: 60px;
+}
+
 .logo-container {
   display: flex;
   align-items: flex-start;
@@ -142,6 +146,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .footer {
+    margin-top: 80px;
+  }
+
   .container-footer {
     padding: 40px 40px 28px 40px;
     position: relative;
@@ -218,6 +226,10 @@
 }
 
 @media only screen and (min-width: 1280px) {
+  .footer {
+    margin-top: 100px;
+  }
+
   .footer-title {
     position: absolute;
     top: 40px;
