@@ -1,6 +1,6 @@
 /* --- Header ---- */
   header{
-    font-family: 'Gilroy', serif;
+    font-family: 'Gilroy', sans-serif;
   }
   
   .header-conteiner{
@@ -34,13 +34,10 @@
     margin-left: auto;
   }
   
-  .menu-open{
-    display: block;
-    width: 100%; 
-    height: 2.5px; 
-    background-color: #0C0C0C; 
-    margin-bottom: 8px; 
-    border-radius: 4px;
+  .menu-open-img{
+    stroke: #0C0C0C;
+    width: 34px;
+    height: 34px;
   }
   
   .menu-open:last-child {
@@ -71,10 +68,10 @@
         width: 40px;
         height: 40px;
     }
-  
-    .menu-open{
-        height: 3px;
-        margin-bottom: 10px;
+
+    .menu-open-img{
+        width: 40px;
+        height: 40px;
     }
   
   }
