@@ -1,24 +1,4 @@
-/* --- Header --- */
-* {
-    box-sizing: border-box;
-    }
-  ul{
-     list-style: none;
-     margin-top: 0;
-     margin-bottom: 0;
-     padding-left: 0;
-    }
-  a{
-    text-decoration:none;
-  }
-  img{
-    display: block;
-  }
-  p,h1,h2,h3,h4,h5,h6{
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  
+/* --- Header ---- */
   header{
     font-family: 'Gilroy', serif;
   }
@@ -78,7 +58,7 @@
   @media screen and (min-width : 768px){
     .header-conteiner{
         min-width: 768px;
-        padding: 26px 31px;
+        padding: 26px 32px;
     }
   
     .header-logo{
@@ -102,19 +82,37 @@
   @media screen and (min-width : 1280px){
     .header-conteiner{
         min-width: 1280px;
-        padding: 26px 65px;
+        padding: 26px 64.5px;
+    }
+
+    .header-navigation{
+      display: flex;
+      gap: 203px;
+      padding-top: 4px;
+      padding-bottom: 4px;
     }
   
     .header-menu-list{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 40px;
-        margin-left: 203px;
+      max-width: 505px;
+      height: 28px;
+      display: flex;
+      align-items: baseline;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    .header-menu-item{
+      font-family: 'Gilroy', sans-serif;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.28;
+      text-align: center;
+      color: #0C0C0C;
+      display: block;
+      height: 18px;
     }
   
     .header-addres{
-        margin-left: auto;
     }
   
     .header-addres-list{
@@ -163,11 +161,11 @@
         width: 8px;
         position: absolute;
         left: 40%;
-        bottom: -8px;
         height: 8px;
         background-color: #3350E9;
         border-radius: 100%;
-        
+        left: 15px;
+        top: 20px;
     }
   
     .addres-menu-img{
