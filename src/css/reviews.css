@@ -1,1 +1,129 @@
 /* --- Reviews --- */
+
+.reviews {
+    margin-bottom: 60px;
+    margin-bottom: 60px;
+}
+
+.reviews-title {
+    font-family: 'Gilroy', sans-serif;
+    color: #0C0C0C;
+    font-weight: 600;
+    font-size: 32px;
+
+    line-height: 92%;
+    letter-spacing: -0.02em;
+    margin-bottom: 40px;
+}
+
+.reviews-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.reviews-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f3f3f3;
+    border-radius: 30px;
+    padding: 32px 36px;
+    max-width: 100%;
+
+}
+
+.reviews-img {
+    border-radius: 50%;
+    overflow: hidden;
+    max-width: 56px;
+    max-height: 56px;
+    margin-bottom: 24px;
+    display: inline-block;
+}
+
+.reviews-name {
+    margin-bottom: 8px;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 110%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #0c0c0c;
+}
+
+.reviews-text {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+
+    line-height: 125%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(12, 12, 12, 0.4);
+    max-width: 263px;
+}
+
+.reviews-item:nth-child(2n),
+.reviews-item:nth-child(3n) {
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .reviews {
+        margin-bottom: 80px;
+        margin-bottom: 80px;
+    }
+
+    .reviews-list {
+        gap: 16px;
+    }
+
+    .reviews-item:nth-child(2n) {
+        display: flex;
+    }
+
+    .reviews-item {
+        width: calc((100% - 16px) / 2);
+    }
+
+    .reviews-text {
+        max-width: 272px;
+    }
+
+    .reviews-title {
+        font-size: 48px;
+    }
+
+    .reviews-name {
+        font-size: 18px;
+    }
+
+    .reviews-text {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .reviews {
+        margin-bottom: 100px;
+        margin-bottom: 100px;
+    }
+
+    .reviews-list {
+        gap: 20px;
+    }
+
+    .reviews-item {
+        width: calc((100% - 40px) / 3);
+    }
+
+    .reviews-item:nth-child(2n),
+    .reviews-item:nth-child(3n) {
+        display: flex;
+    }
+
+    .reviews-text {
+        max-width: 298px;
+    }
+}

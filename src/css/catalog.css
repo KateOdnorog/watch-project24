@@ -85,6 +85,11 @@
 }
 
 @media screen and (min-width: 768px) {
+  .section-catalog {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
   .title-catalog {
     font-size: 48px;
     line-height: 0.92;
@@ -103,10 +108,6 @@
 
   .catalog-list-items:last-child,
   .catalog-list-items:nth-child(5) {
-    padding: 24px 28px;
-    border: 1px solid rgba(12, 12, 12, 0.05);
-    border-radius: 30px;
-    background-color: #f3f3f3;
     display: inline-block;
   }
 
@@ -130,6 +131,11 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .section-catalog {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
   .catalog-list {
     display: flex;
     column-gap: 23px;
