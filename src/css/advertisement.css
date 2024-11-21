@@ -49,6 +49,7 @@
 .advertisement-link:hover,
 .advertisement-link:focus {
   background-color: #fbfbfb;
+  color: #0c0c0c;
 }
 
 @media only screen and (min-width: 768px) {

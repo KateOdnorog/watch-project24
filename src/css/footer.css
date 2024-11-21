@@ -52,8 +52,9 @@
   opacity: 0.8;
 }
 
-.icons-footer:hover,
-.icons-footer:focus {
+.footer-item:hover svg,
+.footer-item:focus svg {
+  fill: #fbfbfb;
   opacity: 1;
 }
 
