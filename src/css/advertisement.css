@@ -45,6 +45,12 @@
   border: 1px solid rgba(251, 251, 251, 0.15);
   border-radius: 16px;
 }
+
+.advertisement-link:hover,
+.advertisement-link:focus {
+  background-color: #fbfbfb;
+}
+
 @media only screen and (min-width: 768px) {
   .advertisement {
     margin: 80px 0;
